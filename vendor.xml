@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Vendor Test Suite" parallel="false">
+    <listeners>
+        <listener class-name="utilities.ExtentReportUtility"/>
+    </listeners>
+    <test name="Vendor Controls Tests">
+        <parameter name="os" value="windows"/>
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="testCases.TC_050_VendorNavigation">
+                <methods>
+                    <include name="verifyNavBarButtonsDisplayCorrectPages"/>
+                    <include name="verifyEachNavButtonLoadsCorrectPage"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+</suite>

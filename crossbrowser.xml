@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Parallel Suite" parallel="tests" thread-count="5" >
+    <listeners>
+        <listener class-name="utilities.ExtentReportUtility"/>
+    </listeners>
+    <test verbose="2" preserve-order="true" name="ChromeTest">
+        <parameter name="os" value="Windows"/>
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="testBase.BaseClass"/>
+        </classes>
+    </test>
+    <test name="EdgeTest">
+        <parameter name="os" value="Windows"/>
+        <parameter name="browser" value="edge"/>
+        <classes>
+
+        </classes>
+    </test>
+
+</suite>

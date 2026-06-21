@@ -1,0 +1,37 @@
+18:08:18:594[main]INFO  testCases.TC_050_VendorNavigation - ========== TC_050: Verify Nav Bar Buttons Display Correct Pages ==========
+18:08:18:629[main]INFO  testCases.TC_050_VendorNavigation - Step 1: Logging in with vendor credentials - Email: vendor@company.com
+18:08:19:716[main]INFO  testCases.TC_050_VendorNavigation - Login successful
+18:08:19:716[main]INFO  testCases.TC_050_VendorNavigation - Step 2: Accessing all buttons in the navigation bar
+18:08:19:736[main]INFO  testCases.TC_050_VendorNavigation - Navigation bar accessed
+18:08:19:736[main]INFO  testCases.TC_050_VendorNavigation - Step 3: Verifying page titles for each navigation button
+18:08:19:776[main]INFO  testCases.TC_050_VendorNavigation - Current page title: Food Court
+18:08:19:776[main]INFO  testCases.TC_050_VendorNavigation - ✓ Page title matches and is displayed
+18:08:19:776[main]INFO  testCases.TC_050_VendorNavigation - ========== TC_050: PASSED ==========
+
+18:08:19:810[main]INFO  testCases.TC_050_VendorNavigation - ========== TC_050: Verify Nav Button - Dashboard ==========
+18:08:19:810[main]INFO  testCases.TC_050_VendorNavigation - Clicking navigation button: Dashboard
+18:08:35:051[main]ERROR testCases.TC_050_VendorNavigation - ✗ Failed to verify button: Dashboard - Expected condition failed: waiting for element found by By.xpath: //nav//button[contains(text(),'Dashboard')] | //nav//a[contains(text(),'Dashboard')] to be clickable, but the element was not found: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//nav//button[contains(text(),'Dashboard')] | //nav//a[contains(text(),'Dashboard')]"}.
+(tried for 15 seconds with 500 milliseconds interval)
+Build info: version: '4.44.0', revision: 'da2039b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 149.0.4022.69, fedcm:accounts: true, goog:processID: 33816, ms:edgeOptions: {debuggerAddress: localhost:63004}, msedge: {msedgedriverVersion: 149.0.4022.80 (2d040fee770f..., userDataDir: C:\Users\2494427\AppData\Lo...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63004/devtoo..., se:cdpVersion: 149.0.4022.69, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f5c8274d0989fb9452d177181b6a86ff
+18:08:35:059[main]INFO  testCases.TC_050_VendorNavigation - ========== TC_050: Verify Nav Button - Orders ==========
+18:08:35:059[main]INFO  testCases.TC_050_VendorNavigation - Clicking navigation button: Orders
+18:08:50:305[main]ERROR testCases.TC_050_VendorNavigation - ✗ Failed to verify button: Orders - Expected condition failed: waiting for element found by By.xpath: //nav//button[contains(text(),'Orders')] | //nav//a[contains(text(),'Orders')] to be clickable, but the element was not found: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//nav//button[contains(text(),'Orders')] | //nav//a[contains(text(),'Orders')]"}.
+(tried for 15 seconds with 500 milliseconds interval)
+Build info: version: '4.44.0', revision: 'da2039b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 149.0.4022.69, fedcm:accounts: true, goog:processID: 33816, ms:edgeOptions: {debuggerAddress: localhost:63004}, msedge: {msedgedriverVersion: 149.0.4022.80 (2d040fee770f..., userDataDir: C:\Users\2494427\AppData\Lo...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63004/devtoo..., se:cdpVersion: 149.0.4022.69, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f5c8274d0989fb9452d177181b6a86ff
+18:08:50:310[main]INFO  testCases.TC_050_VendorNavigation - ========== TC_050: Verify Nav Button - Revenue ==========
+18:08:50:310[main]INFO  testCases.TC_050_VendorNavigation - Clicking navigation button: Revenue
+18:09:05:530[main]ERROR testCases.TC_050_VendorNavigation - ✗ Failed to verify button: Revenue - Expected condition failed: waiting for element found by By.xpath: //nav//button[contains(text(),'Revenue')] | //nav//a[contains(text(),'Revenue')] to be clickable, but the element was not found: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//nav//button[contains(text(),'Revenue')] | //nav//a[contains(text(),'Revenue')]"}.
+(tried for 15 seconds with 500 milliseconds interval)
+Build info: version: '4.44.0', revision: 'da2039b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 149.0.4022.69, fedcm:accounts: true, goog:processID: 33816, ms:edgeOptions: {debuggerAddress: localhost:63004}, msedge: {msedgedriverVersion: 149.0.4022.80 (2d040fee770f..., userDataDir: C:\Users\2494427\AppData\Lo...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63004/devtoo..., se:cdpVersion: 149.0.4022.69, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f5c8274d0989fb9452d177181b6a86ff
